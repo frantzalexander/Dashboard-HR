@@ -11,3 +11,4 @@ Executive Summary
 
 Department Analysis
 ![HR Dashboard Departments](https://user-images.githubusercontent.com/128331579/229990719-4c0ac460-93a4-44db-b7dc-f9c63ea43336.png)
+
