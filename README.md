@@ -33,7 +33,9 @@ The Top 3 reasons for employee churn are: Unhappiness, Leaving for another posit
 
 The average satisfaction was measured at 3.89 out of 5 with Average employee engagement of 4.12. 
 
-Communicating the issue of absenteeism to employees and creating policies that boost morale and engagement would addressing these issues. 
+Effort should be made by management to better communicate the effects of absenteeism to employees and create policies that boost morale and engagement. 
+
+This would effectively address the issues of employee churn and absenteeism.
 
 
 
