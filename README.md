@@ -3,7 +3,6 @@
 ## Project Overview
 The dataset was obtained from the Kaggle [Human Resources Dataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set).
 
-
 The purpose of the project was to gain valuable insights to improve diversity and inclusivity.  
 
 ## Objectives
@@ -34,7 +33,7 @@ The Top 3 reasons for employee churn are: Unhappiness, Leaving for another posit
 
 The average satisfaction was measured at 3.89 out of 5 with Average employee engagement of 4.12. 
 
-Communicating the issue of absenteeism to employees and creating policies that boost morale and engagement would go a long way towards addressing these issues. 
+Communicating the issue of absenteeism to employees and creating policies that boost morale and engagement would addressing these issues. 
 
 
 
@@ -49,13 +48,23 @@ clean[Clean Dataset]
 split[Data Normalization: Create Data Tables & Fact Tables]
 quality[Improve Data Quality & Integrity]
 bi[Power BI: Import Data Tables & Fact Tables]
-whiteboard[Whiteboard: Determine Visualization KPIs]
+whiteboard{Whiteboard: Determine Visualization KPIs}
 exec[Executive Summary]
-active[Headcount of Active Employees]
+active[Head Count of Active Employees]
 total_male[Total Number of Male Employees Hired]
 total_female[Total Number of Female Employees Hired]
+trend[Time Series Trend of Employee Head Count]
+churn[Top Reasons for Employee Churn]
+absences[Absences by Department]
 
 departments[Department Summary]
+tardiness[Employee Tardiness by Department]
+avg_salary[Department Average Salary]
+avg_salary_position[Position Average Salary]
+engagement[Survey of Employee Engagement]
+satisfaction[Suvey of Employee Satisfaction]
+gender_distribution[Department Gender Distribution]
+demographics[Employee Demographics]
 
 finish(((END)))
 
@@ -64,4 +73,23 @@ import --> clean
 clean --> split
 split --> quality
 quality --> bi
-bi --> finish
+bi --> whiteboard
+whiteboard --> exec
+whiteboard--> departments
+exec --> active
+active --> total_male
+total_male --> total_female
+total_female --> trend
+trend --> churn
+churn --> absences
+absences --> finish
+departments --> tardiness
+tardiness --> avg_salary
+avg_salary -->  avg_salary_position
+avg_salary_position --> engagement
+engagement --> satisfaction
+satisfaction -->  gender_distribution
+gender_distribution --> demographics
+demographics -->  finish
+
+
