@@ -1,20 +1,58 @@
 # Human Resources Dashboard
 
 ## Project Overview
+The dataset was obtained from the Kaggle [Human Resources Dataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set).
 
+
+The purpose of the project was to gain valuable insights to improve diversity and inclusivity.  
 
 ## Objectives
-
-
-
+- Determine the Headcount of active Employees.
+- Investigate Company Demographics.
+- Examine the Trend of Active Employees over Time.
+- Review Employee Satisfaction and Engagement Ratings.
+- Examine Absenteeism and Tardiness.
+- Examine Department Gender Distribution.
+- Determine the Top Reasons for Employee Churn.
 
 ## Results
-Executive Summary
-![HR Dashboard Executive Summary](https://user-images.githubusercontent.com/128331579/229990620-46fad1da-1b51-47c8-bde0-5b2f16832d93.png)
+### Executive Summary
+![HR Dashboard Executive Summary 2](https://github.com/frantzalexander/Dashboard-HR/assets/128331579/7322d384-03c3-4b3b-8f74-9ec07f101377)
 
 
-Department Analysis
-![HR Dashboard Departments](https://user-images.githubusercontent.com/128331579/229990719-4c0ac460-93a4-44db-b7dc-f9c63ea43336.png)
+
+### Department Analysis
+![HR Dashboard Departments](https://github.com/frantzalexander/Dashboard-HR/assets/128331579/29e2aaf4-eec3-448f-a6a7-1fe3f8679c7c)
+
+
+
+
+### Key Recommendations
+There is high absenteeism among women in the production department. 
+
+The Top 3 reasons for employee churn are: Unhappiness, Leaving for another position & seeking greater compensation. 
+
+The average satisfaction was measured at 3.89 out of 5 with Average employee engagement of 4.12. 
+
+Communicating the issue of absenteeism to employees and creating policies that boost morale and engagement would go a long way towards addressing these issues. 
+
+
+
 
 ## Process
 
+```mermaid
+flowchart TD
+start(((START)))
+import[Import Dataset into Python]
+clean[Clean Dataset]
+split[Data Normalization: Create Data Tables & Fact Tables]
+finish(((END)))
+quality[Improve Data Quality & Integrity]
+bi[Power BI: Import Data Tables & Fact]
+start --> import
+import --> clean
+clean --> split
+split --> quality
+quality --> bi
+bi --> finish
