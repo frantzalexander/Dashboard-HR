@@ -3,7 +3,7 @@
 ## Project Overview
 The dataset was obtained from the Kaggle [Human Resources Dataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set).
 
-The purpose of the project was to gain valuable insights to improve diversity and inclusivity.  
+The purpose of the project was to gain valuable insights to improve diversity and reduce employee churn.  
 
 ## Objectives
 - Determine the Headcount of active Employees.
