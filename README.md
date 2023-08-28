@@ -47,9 +47,18 @@ start(((START)))
 import[Import Dataset into Python]
 clean[Clean Dataset]
 split[Data Normalization: Create Data Tables & Fact Tables]
-finish(((END)))
 quality[Improve Data Quality & Integrity]
-bi[Power BI: Import Data Tables & Fact]
+bi[Power BI: Import Data Tables & Fact Tables]
+whiteboard[Whiteboard: Determine Visualization KPIs]
+exec[Executive Summary]
+active[Headcount of Active Employees]
+total_male[Total Number of Male Employees Hired]
+total_female[Total Number of Female Employees Hired]
+
+departments[Department Summary]
+
+finish(((END)))
+
 start --> import
 import --> clean
 clean --> split
