@@ -26,13 +26,18 @@ The purpose of the project was to gain valuable insights to improve diversity an
 
 
 
-### Key Recommendations
+### Key Insights
 There is high absenteeism among women in the production department. 
 
 The Top 3 reasons for employee churn are: Unhappiness, Leaving for another position & seeking greater compensation. 
 
 The average satisfaction was measured at 3.89 out of 5 with Average employee engagement of 4.12. 
 
+There is an overall decrease in the workforce. 
+
+This suggests that the economy was in a recession or a change in company direction.
+
+### Recommendation
 Effort should be made by management to better communicate the effects of absenteeism to employees and create policies that boost morale and engagement. 
 
 This would effectively address the issues of employee churn and absenteeism.
