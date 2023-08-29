@@ -33,9 +33,9 @@ The Top 3 reasons for employee churn are: Unhappiness, Leaving for another posit
 
 The average satisfaction was measured at 3.89 out of 5 with Average employee engagement of 4.12. 
 
-There is an overall decrease in the workforce. 
+There was a steep decrease in the workforce from 2012 until 2018. 
 
-This suggests that the economy was in a recession or a change in company direction.
+This suggests that there was a change in company direction or management.
 
 ### Recommendation
 Effort should be made by management to better communicate the effects of absenteeism to employees and create policies that boost morale and engagement. 
